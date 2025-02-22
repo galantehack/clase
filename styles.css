@@ -1,0 +1,94 @@
+/* * (Selector universal) - Resetea los márgenes, padding y configura el modelo de caja */
+* {
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina los espacios internos predeterminados */
+    box-sizing: border-box; /* Hace que el tamaño de los elementos incluya bordes y padding */
+}
+
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: 'Poppins', sans-serif; /* Define la fuente de texto */
+    background-image: url('images/federico-respini-sYffw0LNr7s-unsplash.jpg'); /* Establece una imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+    background-position: center; /* Centra la imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
+    height: 100vh; /* Define la altura del cuerpo para que ocupe el 100% de la pantalla */
+}
+
+/* Contenedor principal */
+.container {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    display: flex; /* Usa flexbox para organizar los elementos en fila */
+}
+
+/* Contenedor del formulario de login */
+.login-container {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    display: flex; /* Usa flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    justify-content: center; /* Centra los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Agrega espacio entre los elementos */
+    background-color: #17842f38;
+}
+
+/* Contenedor de la imagen */
+.imagen-login {
+    display: flex; /* Usa flexbox */
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center; /* Centra la imagen verticalmente */
+    height: auto; /* Ajusta la altura según el contenido */
+    width: 100%; /* La imagen ocupa el ancho total del contenedor */
+    background-color: #aed35538;
+}
+
+/* Estilos para la imagen dentro del contenedor */
+.imagen-login img {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho disponible en su contenedor */
+    max-width: 600px; /* Limita el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción original de la imagen */
+}
+/* Contenedor de cada input */
+.input-container {
+    display: flex; /* Activa flexbox para alinear icono e input */
+    align-items: center; /* Centra verticalmente */
+    background: #ffffff; /* Fondo blanco para resaltar el campo */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    width: 300px; /* Ancho fijo */
+   
+}
+
+/* Estilo del input */
+.input-container input {
+    border: none; /* Elimina el borde */
+    
+    width: 100%; /* Hace que el input ocupe todo el espacio restante */
+    font-size: 16px; /* Tamaño del texto */
+    background: transparent; /* Hace que el fondo sea el mismo que el contenedor */
+}
+
+/* Estilo para el botón de tipo button */
+button {
+    background-color: #17842F;
+    color: white; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.imagen-login{
+    width: 80%;
+    height: 788px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+section {
+    padding: 40px;
+    text-align: center;
+}
